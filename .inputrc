@@ -1,0 +1,6 @@
+set editing-mode vi
+#"\e0C": forward-word
+#"\e0D": backward-word
+
+#"\e[1;5C": forward-word
+#"\e[1;5D": backward-word
