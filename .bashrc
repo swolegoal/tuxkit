@@ -114,7 +114,7 @@ fi
  alias rebash='source ~/.profile'
  alias rebashrc='source ~/.bashrc'
  alias colormysql=$(echo -e 'mysql --prompt="\x1B[31m\\u\x1B[34m@\x1B[32m\\h\x1B[0m:\x1B[36m\\d>\x1B[0m "')
- alias nload='nload -o 500000 -i 500000'
+ alias nload='nload -o 750 -i 750'
  alias nload4g='nload -o 15360 -i 71680'
  alias nloadtg='nload -o 1768 -i 1768'
  alias attach='tmux attach -t'
